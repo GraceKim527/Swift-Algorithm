@@ -1,0 +1,23 @@
+//
+//  main.swift
+//  Swift-Algorithm
+//
+//  Created by 김은혜 on 6/24/24.
+//
+
+import Foundation
+
+let score = Int(readLine()!)!
+
+switch score {
+case 90...100:
+    print("A")
+case 80..<90:
+    print("B")
+case 70..<90:
+    print("C")
+case 60..<70:
+    print("D")
+default:
+    print("F")
+}
