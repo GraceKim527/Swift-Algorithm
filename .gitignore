@@ -131,4 +131,12 @@ iOSInjectionProject/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
+### SwiftPM ###
+
+Packages
+.build/
+xcuserdata
+DerivedData/
+*.xcodeproj
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,swift,xcode
