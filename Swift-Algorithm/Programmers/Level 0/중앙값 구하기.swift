@@ -12,4 +12,4 @@ func solution(_ array:[Int]) -> Int {
     tmp.sort() // 오름차순 정렬
     
     return tmp[tmp.count / 2]
-}import Foundation
+}
